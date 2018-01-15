@@ -1,0 +1,7 @@
+gci_form.form: 
+  path: '/gci_form'
+  defaults: 
+   _title: "GCI form"
+   _form: '\Drupal\gci_form\Form\GciForm'
+  requirements:
+   _permission: 'access content'
